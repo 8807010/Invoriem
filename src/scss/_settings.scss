@@ -1,11 +1,23 @@
 html {
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  color: rgba(31, 31, 31, 0.7);
+}
+
+.container {
+  max-width: 1750px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .page {
@@ -36,7 +48,8 @@ a {
 }
 
 .is-hidden {
-  display: none !important; /* stylelint-disable-line declaration-no-important */
+  display: none !important;
+  /* stylelint-disable-line declaration-no-important */
 }
 
 .btn-reset {
@@ -76,12 +89,6 @@ a {
   width: 1px;
   height: 1px;
   clip: rect(0 0 0 0);
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 var(--container-offset);
-  max-width: var(--container-width);
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
