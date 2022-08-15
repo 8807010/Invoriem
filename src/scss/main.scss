@@ -4,7 +4,15 @@
 @import "fonts";
 @import "settings";
 
+// Обнуление и общие параметры
+@import "base/null";
+
 // подключения компонентов страницы
 @import "./components/header";
+@import "./components/nav";
+
+
+
+@import "./_common";
 
 
