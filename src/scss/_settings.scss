@@ -22,6 +22,11 @@ body {
   margin: 0 auto;
 }
 
+.container-right {
+  overflow-x: hidden;
+  padding-left: calc((100% - 1750px) / 2 + 15px);
+}
+
 .page {
   height: 100%;
   font-family: var(--font-family, sans-serif);

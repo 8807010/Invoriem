@@ -6,17 +6,65 @@
 <body class="page__body">
   <div class="site-container">
     @include('partials/header.html')
-    <main class="main">
-      <picture>
-        <source srcset="img/cover.avif" type="image/avif">
-        <source srcset="img/cover.webp" type="image/webp">
-        <img loading="lazy" src="img/cover.jpg" class="image" width="300" height="300" alt="Обложка канала MaxGraph">
-      </picture>
+
+    <main class="main" id="main">
+      <section class="case-studies">
+        <div class="case-studies__container container">
+          <div class="case-studies__title title">
+            <h2>Case Studies</h2>
+          </div>
+          <div class="case-studies__text text">
+            <p>We deliver a unique and truly bespoke approach to delivering international developments to market, with
+              over 10 years success around the world.</p>
+          </div>
+        </div>
+
+        <div class="container-right">
+          <div class="slider">
+            <div class="owl-carousel owl-theme">
+              <div class="slider__item slide">
+                <h3 class="slide__title">New York</h3>
+                <img class="slide__img" src="./img/slider/slider-01.jpg" alt="New York">
+              </div>
+              <div class="slider__item slide">
+                <h3 class="slide__title">Moroco</h3>
+                <img class="slide__img" src="./img/slider/slider-02.jpg" alt="Moroco">
+              </div>
+              <div class="slider__item slide">
+                <h3 class="slide__title">Portugal</h3>
+                <img class="slide__img" src="./img/slider/slider-03.jpg" alt="Portugal">
+              </div>
+              <div class="slider__item slide">
+                <h3 class="slide__title">London</h3>
+                <img class="slide__img" src="./img/slider/slider-04.jpg" alt="London">
+              </div>
+              <div class="slider__item slide">
+                <h3 class="slide__title">Emirates</h3>
+                <img class="slide__img" src="./img/slider/slider-05.jpg" alt="Emirates">
+              </div>
+              <div class="slider__item slide">
+                <h3 class="slide__title">France</h3>
+                <img class="slide__img" src="./img/slider/slider-06.jpg" alt="France">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
     </main>
 
     @include('partials/footer.html')
     <!-- @include('html/h1.html') пример include -->
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
