@@ -51,7 +51,37 @@
         </div>
       </section>
 
+      <section class="about">
+        <div class="about__container container">
 
+          <div class="about__title title">
+            <h2>We are Invoriem</h2>
+          </div>
+
+          <div class="about__text text">
+            <p>We fulfill international property developments</p>
+          </div>
+
+          <div class="about__content">
+            <!-- video -->
+            <div class="video video-overlay">
+              <button class="video__btn" id="video-btn">
+                <img src="./img/video/btn-play.svg" alt="Play">
+              </button>
+
+              <picture class="video__picture">
+                <source media="(max-width: 600px)" srcset="./img/video-picture-mobile.jpg">
+                <img src="./img/video/video-picture.jpg" alt="Preview">
+              </picture>
+
+              <video class="video__object" id="video-file" loop>
+                <source src="./img/video/video.mp4" type="video/mp4">
+              </video>
+            </div>
+            <!-- video -->
+          </div>
+        </div>
+      </section>
     </main>
 
     @include('partials/footer.html')
