@@ -119,3 +119,15 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.none {
+  display: none !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+// .no-scroll {
+//   overflow-y: hidden;
+// }
