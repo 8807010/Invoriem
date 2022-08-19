@@ -8,7 +8,7 @@
 @import "base/null";
 
 // подключения компонентов страницы
-@import "./components/header";
+@import "./components/_header";
 @import "./components/_nav";
 @import "./components/_case-studies";
 @import "./components/_slider";
@@ -19,5 +19,6 @@
 
 
 @import "./_common";
+@import "./_media";
 
 
