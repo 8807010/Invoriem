@@ -1,4 +1,3 @@
-/* Header */
 .header {
   position: relative;
   min-height: 100vh;
@@ -18,6 +17,10 @@
   bottom: 59px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.header__content-mobile {
+  display: none;
 }
 
 .header__content {

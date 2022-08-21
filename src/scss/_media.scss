@@ -28,8 +28,6 @@
   }
 
   .slide__title {
-    bottom: 32px;
-    font-size: 80px;
     background: linear-gradient(90deg, rgba(17, 68, 85, 1) 50px, rgba(255, 255, 255, 1) 50px);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -201,7 +199,6 @@
     left: -50%;
     top: 0;
     width: 900px;
-    height: 459px;
-    vertical-align: top;
+    object-fit: cover;
   }
 }

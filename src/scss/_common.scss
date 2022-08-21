@@ -1,19 +1,15 @@
 /* Button */
 .btn {
   position: relative;
-
   display: inline-block;
   padding: 10px 24px;
   padding-right: 72px;
-
   border: 1px solid #114455;
   border-radius: 2px;
-
   font-size: 20px;
   font-weight: 800;
   color: #114455;
-
-  transition: color 0.15s ease-in, background-color 0.15s ease-in;
+  transition: all .5s ease;
 }
 
 .btn::after {
@@ -21,14 +17,14 @@
   position: absolute;
   width: 32px;
   height: 32px;
-  /* background-color: red; */
   background-image: url('./../img/icons/arrow-right-black.svg');
   background-repeat: no-repeat;
   background-position: center;
-
   right: 24px;
   top: 50%;
   transform: translateY(-50%);
+  transition: all .5s ease;
+
 }
 
 .btn:hover,
@@ -62,14 +58,4 @@
 
 .btn--dark::after {
   background-image: url('./../img/icons/arrow-right-white.svg');
-}
-
-.title {
-  font-size: 80px;
-  font-weight: 800;
-}
-
-.text {
-  font-size: 28px;
-  line-height: 1.57;
 }

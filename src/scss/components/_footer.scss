@@ -1,6 +1,5 @@
 .footer {
   padding: 162px 0 82px;
-
   letter-spacing: 0.04em;
   font-size: 20px;
   line-height: 36px;
@@ -24,9 +23,15 @@
   column-gap: 104px;
 }
 
-.footer__email {}
-
 .footer__socials {
   display: flex;
   column-gap: 26px;
+}
+
+.footer__socials-icon img {
+  transition: all 0.3s ease;
+}
+
+.footer__socials-icon img:hover {
+  transform: scale(1.2);
 }
