@@ -2,6 +2,7 @@
 <html lang="ru" class="page">
 
 @include('partials/head.html')
+@include('partials/mobile-nav.html')
 
 <body>
   @include('partials/header.html')
@@ -19,7 +20,6 @@
       </div>
 
       <div class="container-right">
-
         <div class="slider">
           <div class="owl-carousel owl-theme">
             <div class="slider__item slide">
@@ -40,23 +40,18 @@
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
     <section class="about">
       <div class="container">
-
         <div class="about__title">
           <h2 class="title">We are Invoriem</h2>
         </div>
-
         <div class="about__text text">
           <p>We fulfill international property developments</p>
         </div>
-
         <div class="about__content">
-
           <!-- video -->
           <div class="video video-overlay">
             <button class="video__btn" id="video-btn">
@@ -68,20 +63,17 @@
               <img src="./img/video/video-picture.jpg" alt="Preview">
             </picture>
 
-
             <video class="video__object" id="video-file" loop>
               <source src="./img/video/video.mp4" type="video/mp4">
             </video>
           </div>
           <!-- video -->
-
         </div>
       </div>
     </section>
   </main>
 
   @include('partials/footer.html')
-  <!-- @include('html/h1.html') пример include -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
