@@ -50,9 +50,9 @@ a {
   text-decoration: none;
 }
 
-.site-container {
-  overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
-}
+// .site-container {
+//   overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+// }
 
 .is-hidden {
   display: none !important;
@@ -128,6 +128,6 @@ a {
   visibility: hidden;
 }
 
-// .no-scroll {
-//   overflow-y: hidden;
-// }
+.no-scroll {
+  overflow-y: hidden;
+}
