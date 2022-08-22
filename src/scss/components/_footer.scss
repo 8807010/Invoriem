@@ -4,34 +4,34 @@
   font-size: 20px;
   line-height: 36px;
   color: rgba(31, 31, 31, 0.7);
-}
 
-.footer a {
-  letter-spacing: 0.04em;
-  font-size: 20px;
-  line-height: 36px;
-  color: rgba(31, 31, 31, 0.7);
-}
+  & a {
+    letter-spacing: 0.04em;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(31, 31, 31, 0.7);
+  }
 
-.footer__row {
-  display: flex;
-  justify-content: space-between;
-}
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.footer__nav {
-  display: flex;
-  column-gap: 104px;
-}
+  &__nav {
+    display: flex;
+    column-gap: 104px;
+  }
 
-.footer__socials {
-  display: flex;
-  column-gap: 26px;
-}
+  &__socials {
+    display: flex;
+    column-gap: 26px;
 
-.footer__socials-icon img {
-  transition: all 0.3s ease;
-}
+    &-icon img {
+      transition: all 0.3s ease;
 
-.footer__socials-icon img:hover {
-  transform: scale(1.2);
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
 }

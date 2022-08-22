@@ -1,14 +1,14 @@
 .nav {
   display: flex;
   justify-content: space-between;
-}
 
-.nav__list {
-  display: flex;
-  align-items: center;
-  column-gap: 118px;
-}
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 118px;
+  }
 
-.nav__btn {
-  display: none;
+  &__btn {
+    display: none;
+  }
 }
