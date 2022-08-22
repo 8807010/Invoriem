@@ -1,6 +1,6 @@
 # Invoriem  
 
-## Адаптивная  мобильная верстка HTML CSS JS из Figma. FlexBox, формы, карусель, видео на сайте.  
+Адаптивная  мобильная верстка HTML CSS JS из Figma. FlexBox, формы, карусель, видео на сайте.  
 
 ✅ Верстка под десктоп  
 ✅ БЭМ нейминг  
@@ -11,5 +11,6 @@
 ✅ JS скрипты  
 ✅ Работа с нестандартными дизайн-приемами  
 ✅ Видео на сайте  
+
  
 [![Invoriem](https://github.com/8807010/Invoriem/blob/master/Invoriem.jpg)](https://8807010.github.io/Invoriem/)
