@@ -18,6 +18,7 @@
     z-index: 2;
     font-size: 140px;
     font-weight: 800;
+    pointer-events: none;
     background: linear-gradient(90deg, rgba(17, 68, 85, 1) 80px, rgba(255, 255, 255, 1) 80px);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
