@@ -1,5 +1,4 @@
 const {
-  gulp,
   src,
   dest,
   series,
@@ -59,10 +58,11 @@ const clean = () => {
 };
 
 //deploy
+const gulp = require('gulp');
 const ghPages = require('gulp-gh-pages');
 
 gulp.task('deploy', function() {
-    return gulp.src('./app/**/*')
+    return gulp.src('./dist/**/*')
         .pipe(ghPages());
 });
 
