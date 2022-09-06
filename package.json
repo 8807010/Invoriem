@@ -3,7 +3,6 @@
   "version": "2.0.4",
   "description": "gulp-builder for weblayout",
   "main": "gulpfile.js",
-  "homepage": "https://8807010.github.io/Invoriem",
   "scripts": {
     "html": "node-w3c-validator -f lint -evH -i app/**/*.html",
     "dev": "gulp",
@@ -11,8 +10,8 @@
     "cache": "gulp cache",
     "backend": "gulp backend",
     "zip": "gulp zip",
-    "code": "editorconfig-checker",
-    "deploy": "gulp build && gh-pages -d build"
+    "deploy": "gulp build && gh-pages -d build",
+    "code": "editorconfig-checker"
   },
   "author": "MaxGraph",
   "license": "ISC",
